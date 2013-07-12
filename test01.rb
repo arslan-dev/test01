@@ -33,7 +33,7 @@ t = 0
 arg1 = ARGV.shift
 
 if (arg1 == nil)
-  puts "Example ./test01 10" if arg1 == nil
+  puts "Example ./test01.rb 10" if arg1 == nil
 else
   begin
     t = Integer(arg1)
