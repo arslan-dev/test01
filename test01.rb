@@ -4,7 +4,7 @@
 class Array
   def test01
 
-    return self if (self.empty?) 
+    return self if self.empty? 
 
     i = 1
     ary = Array.new
@@ -32,8 +32,8 @@ puts
 t = 0
 arg1 = ARGV.shift
 
-if (arg1 == nil)
-  puts "Example ./test01.rb 10" if arg1 == nil
+if arg1 == nil
+  puts "Example: ./test01.rb 10"
 else
   begin
     t = Integer(arg1)
